@@ -9,5 +9,18 @@
   "short_name": "SeriesPro",
   "start_url": "index.html",
   "theme_color": "#e50914",
-  "id": "series-pro-pwa"
+  "id": "series-pro-pwa",
+  "icons": [
+    {
+      "src": "logo_api_serie.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo_api_serie.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
