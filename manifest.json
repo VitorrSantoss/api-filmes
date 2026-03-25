@@ -1,0 +1,13 @@
+{
+  "background_color": "#141414",
+  "description": "App de busca de séries em tempo real. Favorite suas séries favoritas e organize sua lista de maratonas.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Series Pro App",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "SeriesPro",
+  "start_url": "index.html",
+  "theme_color": "#e50914",
+  "id": "series-pro-pwa"
+}
