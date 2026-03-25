@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="App de busca de séries em tempo real. Favorite suas séries favoritas e organize sua lista de maratonas."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>App Séries - Busque e Favorite suas Séries Online</title>
+  </head>
+  <body>
+    <header>
+      <h1>App Séries</h1>
+      <div class="search-container">
+        <label for="busca" class="sr-only" style="display: none"
+          >Buscar série</label
+        >
+        <input
+          id="busca"
+          class="busca"
+          type="text"
+          placeholder="Pesquisar série..."
+          inputmode="search"
+        />
+        <button
+          class="btn-buscar"
+          onclick="buscar()"
+          aria-label="Buscar séries"
+        >
+          Buscar
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-container">
+        <h2>Resultados da Busca</h2>
+        <div id="resultados" class="grid-layout"></div>
+      </section>
+
+      <section class="section-container favoritos-section">
+        <h2>Meus Favoritos</h2>
+        <ul id="favoritos" class="lista-favoritos"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
